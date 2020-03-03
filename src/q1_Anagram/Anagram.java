@@ -15,11 +15,11 @@ public class Anagram {
 		for(int i=0; i<cs2.length; i++) {
 			for (int j=0; j<cs.length; j++) {
 				
-				// and set matching elements as ZERO
+				// and set only one matching pair of elements as ZERO
 				if (cs2[i]==cs[j]) {
 					cs[j] = '0';
 					cs2[i] = '0';
-					continue;
+					continue; // to make sure only one is matched
 				}
 			}
 		}
@@ -32,7 +32,7 @@ public class Anagram {
 	
 	public static void TestAnagram() {
 		String str1 = "goats bleat";
-		String str2 = "table top";
+		String str2 = "tables topple";
 		System.out.println(str1+" | "+str2+" ? "+IsAnagram(str1,str2));
 		
 		str1 = "i am lord voldemort";
