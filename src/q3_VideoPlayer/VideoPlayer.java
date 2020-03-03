@@ -1,5 +1,7 @@
 package q3_VideoPlayer;
 
+// Q3 pseudocode VideoPlayer with demo test unit
+
 public class VideoPlayer {
 
     private String contentUri;
