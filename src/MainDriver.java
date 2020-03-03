@@ -1,7 +1,6 @@
 import q1_Anagram.Anagram;
 import q2_Vehicle.ModelCar;
 import q2_Vehicle.ModelPlane;
-import q2_Vehicle.ModelVehicle;
 import q3_VideoPlayer.VideoPlayer;
 
 public class MainDriver {
